@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		EF982BCB2CEB93CD005CCF5A /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF982BCA2CEB93CD005CCF5A /* Storyboard.storyboard */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		EF982BA92CEB9211005CCF5A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		EF982B982CEB920F005CCF5A /* Apple Sound Sampler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apple Sound Sampler.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF982BA82CEB9211005CCF5A /* Apple Sound SamplerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Apple Sound SamplerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF982BB22CEB9211005CCF5A /* Apple Sound SamplerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Apple Sound SamplerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF982BCA2CEB93CD005CCF5A /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +80,7 @@
 		EF982B8F2CEB920F005CCF5A = {
 			isa = PBXGroup;
 			children = (
+				EF982BCA2CEB93CD005CCF5A /* Storyboard.storyboard */,
 				EF982B9A2CEB920F005CCF5A /* Apple Sound Sampler */,
 				EF982BAB2CEB9211005CCF5A /* Apple Sound SamplerTests */,
 				EF982BB52CEB9211005CCF5A /* Apple Sound SamplerUITests */,
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF982BCB2CEB93CD005CCF5A /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +406,10 @@
 				DEVELOPMENT_TEAM = 347834QV62;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Apple-Sound-Sampler-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app requires microphone access to record audio.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -428,6 +439,10 @@
 				DEVELOPMENT_TEAM = 347834QV62;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Apple-Sound-Sampler-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app requires microphone access to record audio.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
